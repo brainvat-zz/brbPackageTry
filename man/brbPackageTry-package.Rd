@@ -3,39 +3,32 @@
 \alias{brbPackageTry}
 \docType{package}
 \title{
-What the package does (short line)
-~~ package title ~~
+Berkeley R Beginners Package Try
 }
 \description{
-More about what it does (maybe more than one line)
-~~ A concise (1-5 lines) description of the package ~~
+This is an example package created during a meeting of the Berkeley R Beginner's
+group at the University of California, Berkeley.
 }
 \details{
 \tabular{ll}{
 Package: \tab brbPackageTry\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
+Version: \tab 0.1.0\cr
 Date: \tab 2015-03-17\cr
-License: \tab What license is it under?\cr
+License: \tab CC0\cr
 }
-~~ An overview of how to use the package, including the most important functions ~~
 }
 \author{
-Who wrote it
-
-Maintainer: Who to complain to <yourfault@somewhere.net>
-~~ The author and/or maintainer of the package ~~
+Allen Hammock
 }
 \references{
-~~ Literature or other references for background information ~~
+http://r-pkgs.had.co.nz/
 }
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R ~~
-~~ documentation directory ~~
 \keyword{ package }
 \seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
 }
 \examples{
-~~ simple examples of the most important functions ~~
+hello()
+hello("Charlie")
+add(2, 2)
 }

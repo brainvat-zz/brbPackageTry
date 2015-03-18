@@ -1,9 +1,16 @@
 Package: brbPackageTry
 Type: Package
-Title: What the package does (short line)
-Version: 1.0
+Title: My Package
+Version: 0.1.0
 Date: 2015-03-17
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
+Authors@R: person("Allen", "Hammock", email = "ahammock@mac.com",
+                  role = c("aut", "cre"))
 Description: More about what it does (maybe more than one line)
-License: What license is it under?
+License: CC0
+LazyData: true
+Imports:
+    dplyr (>= 0.4.0),
+    ggvis (>= 0.2)
+Suggests:
+    knitr (>= 0.1.0)
+
